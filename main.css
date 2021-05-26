@@ -1,41 +1,76 @@
 @charset "utf-8";
 /* CSS Document */
-*{margin: 0px;padding: 0px}
 
-.bg-cover {
-background-image: url("images/u2_state0.png");
-background-size: cover;
-background-position: center;
+*{padding: 0px; margin: 0px;}
+
+i {color: #868686;}
+i:hover{color: red;}
+
+.tilte{font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"}
+.Banner1
+{background-image: url("images/u2_state0.png");
 height: 100vh;
-	
+background-size: cover;
+background-repeat: no-repeat;}
+.navbar{background-color: black}
+
+.Page2
+{height: 150px;
+background-color: #E9E9E9;
 }
-.navbar
-{background-color: #000000;
-height: 72px;
+.Social{padding: 20px 20px 20px 200px}
+.Icon{padding: 20px 0px 0px 100px}
 
+.Page3
+{height: 450px;
+padding: 50px}
+.Page4
+{
+padding: 60px
 }
-ul{list-style: none;padding: 0px }
-ul li{padding: 10px 30px 10px 30px;float: left;}
-ul li a{text-decoration: none;color: white;}
-ul li:hover{background-color: #9E8383;}
-.content1{color: white;padding-top: 30px;font-size: 20pt;}
-.content2{color: white;font-size: 12pt;padding-top: 30px}
-.body-content-1{margin: 270px 270px 270px 550px }
-.Social{height: 135px;padding: 20px 20px 20px 50px }
+.button2{border: 2px #FFC024 solid;border-radius: 0.25rem;background-color: transparent;height: 40px;width: 100px;}
+button2:hover{background-color: #FFC024}
+.Page5
+{
+background-color: #E9E9E9;
+padding: 50px}
 
-.Icons{
-padding: 10px 20px 0px 200px;
-transition: 1s linear;
-color: rgba(161, 161, 161, 0.5);
+.hr2
+{border: 2px #FC981A solid;width: 70px;}
 
-}
-.Social-Media{padding: 0px 20px 0px 0px}
-.nav-link{background-color: black;height: 112px;width: 112px;border-radius: 0.25rem;
-border:#f5f5f5 0.5px solid;
-}
-.TAB{margin: 0px 99px 110px 0px;background-color: #f5f5f5;
-padding: 70px 37px 51px 150px;}
-.TAB2{padding: 70px 0px 0px 0px}
+.fa-3x{color: #FFA92D}
+.Iconbg{background-image: url("images/icon_awesome_u175.png");background-repeat: no-repeat;height: 70px;width: 70px;background-position: center }
+.nav-link{background-color: black;height: 40px;border: 2px #FFFFFF solid}
+.nav-link active{color: red;background-color: red}
+
+.Page6{height: 592px;align-items: center}
+.Page7{background-color: #E9E9E9}
 
 
+
+.tag-tilte{ width: 343px;
+  height: 59px;
+background-color:#191919;
+border: 2px #E9E9E9 solid;color: white}
+.description{width: 343px;
+height: 40px;
+background-color: white;
+border: 2px #E9E9E9 solid;}
+.tag-price{width: 343px;
+height: 100px;
+background-color:#191919;color: white;font-size: 24pt;
+border: 2px #E9E9E9 solid;color: white}
+.tag-time{width: 343px;
+ height: 51px;
+background-color:#191919;color: white;
+border: 2px #E9E9E9 solid;color: white}
+.tag-line{width: 343px;
+height: 9px;
+background-color: #D49A2C;;color: white;border: 2px #E9E9E9 solid;}
+.tag-line2{width: 343px;
+height: 40px;
+background-color: #D49A2C;;color: white;border: 2px #E9E9E9 solid;}
+.Page8{background-image: url("images/u25_state0.png");background-size: cover;background-position: center;color: white;opacity: 80%;height: 350px;}
+.button1{width: 110px;height: 35px;background-color: transparent;border: 2px #FFFFFF solid;color: white}
+button1:hover{background-color: #F19D53}
 
